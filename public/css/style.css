@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+input{
+    display: none;
+}
+.main{
+    display: flex;
+}
+#cover{
+    height: 400px;
+    width: 250px;
+}
+.flip-book{
+    width: 250px;
+    height: 400px;
+}
+.flip{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: .5s;
+    color: #000;
+}
+p{
+    font-size: 14px;
+    font-height: 24px;
+}
+.font{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
